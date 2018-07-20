@@ -1,0 +1,475 @@
+<div class="body-wrap masonry-container">
+    <div id="st-container" class="st-container">
+
+        <nav class="st-menu st-effect-1" id="menu-1">
+    <div class="st-profile">
+        <div class="st-profile-user-wrapper">
+            <div class="profile-user-image">
+            <img src="<%= image_path("person-1.jpg")%>" class="img-circle" /> 
+            </div>
+            <div class="profile-user-info">
+                <span class="profile-user-name">Bertram Ozzie</span>
+                <span class="profile-user-email">username@example.com</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="st-menu-list mt-2">
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="ion-ios-bookmarks-outline"></i> Theme documentation
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="ion-ios-cart-outline"></i> Purchase Tribus
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <h3 class="st-menu-title">Account</h3>
+    <div class="st-menu-list">
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="ion-ios-person-outline"></i> User profile
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="ion-ios-location-outline"></i> My addresses
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="ion-card"></i> My cards
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="ion-ios-unlocked-outline"></i> Password update
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <h3 class="st-menu-title">Support center</h3>
+    <div class="st-menu-list">
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="ion-ios-information-outline"></i> About Tribus
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="ion-ios-email-outline"></i> Contact &amp; support
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-camera"></i> Getting started
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+        <div class="st-pusher">
+            <div class="st-content">
+                <div class="st-content-inner">
+
+                    <!-- Header -->
+                    <div class="header">
+    <!-- Top Bar -->
+    
+    <!-- Global Search -->
+    <section id="sctGlobalSearch" class="global-search global-search-overlay">
+    <div class="container">
+        <div class="global-search-backdrop mask-dark--style-2"></div>
+
+        <!-- Search form -->
+        <form class="form-horizontal form-global-search z-depth-2-top" role="form">
+            <div class="px-4">
+                <div class="row">
+                    <div class="col-12">
+                        <input type="text" class="search-input" placeholder="Type and hit enter ...">
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="close-search" data-toggle="global-search" title="Close search bar"></a>
+        </form>
+    </div>
+</section>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar--bold  navbar-transparent navbar-inverse bg-dark ">
+        <div class="container navbar-container">
+            <!-- Brand/Logo -->
+                        <a class="navbar-brand" href="../../index.html">
+                <img src="<%= image_path("discologo.png")%>" class="d-none d-lg-inline-block" alt="Boomerang">
+                <img src="<%= image_path("discologo.png")%>" class="d-lg-none" alt="Boomerang">            </a>
+            
+            <div class="d-inline-block">
+                <!-- Navbar toggler  -->
+                <!-- 
+                <button class="navbar-toggler hamburger hamburger-js hamburger--spring" type="button" data-toggle="collapse" data-target="#navbar_main" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse align-items-center justify-content-end" id="navbar_main">
+
+        GRISEMENT DE LA NAV BAR TOOGLER A SUPPRIMER  -->
+
+    <!-- Navbar search - For small resolutions -->
+
+    <!-- GRISEM
+    <div class="navbar-search-widget b-xs-bottom py-3 d-lg-none d-none">
+        <form class="" role="form">
+            <div class="input-group input-group-lg">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                <button class="btn btn-base-3" type="button">Go!</button>
+                </span>
+            </div>
+        </form>
+    </div>
+ENT DE LA NAV BAR earch - For small resolutions A SUPPRIMER  -->
+    <!-- Navbar links -->
+     <!-- GRISEM ENT DE LA NAV BAR 
+    <ul class="navbar-nav">
+        <li class="nav-item dropdown megamenu">
+            <a class="nav-link" href="https://www.thehackingproject.org/faq">
+                Any Questions ?
+            </a>
+        </li>
+         <li class="nav-item dropdown megamenu">
+            <a class="nav-link" href="/student"  >
+               Are you a student ?
+            </a>
+           
+        </li>
+         <li class="nav-item dropdown megamenu">
+            <a class="nav-link" href="/marseille"  >
+               Are you from Marseille ?
+            </a>
+           
+        </li>
+        <li class="nav-item dropdown megamenu">
+            <a class="nav-link" href="https://www.thehackingproject.org/contact">
+                Contact
+            </a>
+        </li>
+    </ul>
+
+    <ul class="navbar-nav ml-lg-auto">
+        <li class="nav-item">
+            <a href="../../documentation/getting-started/introduction.html" class="nav-link">
+               Log In
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+<div class="pl-4 d-none d-lg-inline-block">
+    <a href="https://www.thehackingproject.org/" class="btn btn-styled btn-sm btn-white btn-outline text-uppercase btn-circle" target="_blank">
+        SIGN UP NOW ! 
+            </a>
+</div> 
+
+links A SUPPRIMER  -->
+
+        </div>
+    </nav>
+</div>
+
+                    <section class="swiper-js-container background-image-holder" data-holder-type="fullscreen" data-holder-offset="" style="height: 641px;">
+                        <div class="swiper-container" data-swiper-autoplay="true" data-swiper-effect="fade" data-swiper-items="1" data-swiper-space-between="0">
+                            <div class="swiper-wrapper">
+                                <!-- Slide -->
+                                <div class="swiper-slide" data-swiper-autoplay="8000">
+                                    <div class="slice holder-item holder-item-light has-bg-cover bg-size-cover" style="background-image: url(<%=image_path("camprieuok.jpg")%>); background-position: bottom center;">
+                                        <div class="container d-flex align-items-center">
+                                            <div class="col">
+                                                <div class="row text-center">
+                                                    <div class="col-12">
+                                                        <h2 class="heading heading-xxl strong-600 text-uppercase animated" data-animation-in="fadeInDownBig" data-animation-delay="200">
+                                                            Camprieu
+                                                        </h2>
+                                                        <p class="lead animated" data-animation-in="fadeInUpBig" data-animation-delay="200">
+                                                            Disco Dancing
+                                                        </p>
+
+                                                        <a href="#" data-scroll-to="#scrollToSection" class="btn btn-styled btn-lg btn-white btn-circle btn-outline mt-5 animated" data-animation-in="fadeInUpBig" data-animation-delay="1000">
+                                                            Learn more
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                   
+
+                    <section class="slice bg-black" id="scrollToSection">
+
+                        <div class="container">
+                            <div class="section-title section-title--style-1 text-center mb-4">
+                                <h1 class="section-title-inner heading-2 c-white text-normal"> DISCO CAMPRIEU </h1>
+                                <h2 class="section-title-inner heading-2 c-white text-normal"> 30 ans Alexis et Maxime  </h2> 
+                                <h3 class="section-title-inner heading-2 c-white text-normal">
+                                    <span> 31 AOUT - 3 JUILLET </span>
+                                </h3>
+                            </div>
+                       
+                            <div class="fluid-paragraph fluid-paragraph-sm c-gray-lighter strong-300 text-center">
+                                <p>
+                                   
+                                </p>
+                            </div>
+
+                            <span class="space-xs-xl"></span>
+
+                            <div class="row cols-xs-space cols-sm-space cols-md-space">
+                                <div class="col-lg-4">
+                                    <div class="block block-image-holder animate-this animate--hover-zoom">
+                                        <div class="block-image">
+                                            <a href="#">
+                                                <img src="<%= image_path("meilleurdeguisementok.JPG")%>"
+                                            </a>
+                                        </div>
+                                        <div class="block-info block-info-over block-info-over--style-1 block-info-over--dark-gradient overflow-visible">
+                                            <div class="block-info-inner animate-translate--up">
+                                                <div class="text-center">
+                                                    <a href="#" class="heading heading-4 strong-500 mb-0 c-white">MEILLEUR DJ</a>
+                                                    <span class="clearfix"></span>
+                                                    <small class="text-uppercase c-white">A vos playlist. Preparez un set de 45 min pour esperer etre élu DJ camprieu 2018  </small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="col-lg-4">
+                                    <div class="block block-image-holder animate-this animate--hover-zoom">
+                                        <div class="block-image">
+                                            <a href="#">
+                                                <img src= "<%= image_path("bbq.jpg")%>"
+                                            </a>
+                                        </div>
+                                        <div class="block-info block-info-over block-info-over--style-1 block-info-over--dark-gradient overflow-visible">
+                                            <div class="block-info-inner animate-translate--up">
+                                                <div class="text-center">
+                                                    <a href="#" class="heading heading-4 strong-500 mb-0 c-white"> Pot Chef  </a>
+                                                    <span class="clearfix"></span>
+                                                    <small class="text-uppercase c-white"> Avec votre groupe organisez un repas, régalez le monde et mettez les pieds sous la table le reste du temps.</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="block block-image-holder animate-this animate--hover-zoom">
+                                        <div class="block-image">
+                                            <a href="#">
+                                                <img src= "<%= image_path("djok.JPG")%>"
+                                            </a>
+                                        </div>
+                                        <div class="block-info block-info-over block-info-over--style-1 block-info-over--dark-gradient overflow-visible">
+                                            <div class="block-info-inner py-4 animate-translate--up">
+                                                <div class="text-center">
+                                                    <a href="#" class="heading heading-4 strong-500 mb-0 c-white"> DISCO KING & DISCO QUEEN </a>
+                                                    <span class="clearfix"></span>
+                                                    <small class="text-uppercase c-white"> A vos tenues , Election du Meilleur déguisement D.I.S.C.O </small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <span class="space-xs-xl"></span>
+
+                        </div>
+                    </section>
+
+                    <section class="slice bg-black">
+                        <div class="container">
+                            <div class="section-title section-title--style-1 text-center mb-4">
+                                <h3 class="section-title-inner heading-2 c-white text-normal">
+                                    
+                                </h3>
+                            </div>
+
+                            
+                            <span class="space-xs-xl"></span>
+
+                             <div class="row cols-md-space cols-sm-space cols-xs-space">
+                                <div class="col-lg-6">
+                                    <div class="px-4">
+                                        <div class="block block-image-holder image-animate-wrapper">
+                                            <div class="block-image image-animate--hover">
+                                               <span> <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d367634.4045158905!2d3.538863006422771!3d43.95639077608495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x12b39416af6f0d61%3A0x4078821166b3640!2s30750+Saint-Sauveur-Camprieu!3m2!1d44.109986199999994!2d3.4700327!5e0!3m2!1sfr!2sfr!4v1532003645151" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> </span>"ICI"
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="px-4">
+                                        <div class="block block-image-holder image-animate-wrapper">
+                                            <div class="block-image image-animate--hover">
+                                                <a href="#">
+                                                    <iframe src="https://drive.google.com/file/d/1a-ZWNEsHApTwHAutKKilVyBhzw6basMh/preview" width="640" height="480"></iframe>
+                                                </a>
+                                            </div>
+
+                                            <div class="text-center pt-4">
+                                                <span class="heading heading-sm c-gray-light text-uppercase strong-300"></span>
+                                                <h3 class="heading heading-4 c-white strong-400 mt-2"></h3>
+                                                <p class="mt-3 c-white px-5">
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                         
+                        </div>
+                    </section>  
+
+                    <section class="slice bg-black">
+                        <div class="container">
+                            <div class="section-title section-title--style-1 text-center mb-4">
+                                <h3 class="section-title-inner heading-2 c-white text-normal">
+                                    <span> Comment Venir ?  </span>
+                                </h3>
+                            </div>
+
+                            <div class="fluid-paragraph fluid-paragraph-sm c-gray-lighter strong-300 text-center">
+                                <p> En voiture : 1h30 au nord de Montpellier 
+                                </p>
+                                <p> Demandes de covoits sur l'event FB s
+                                </p>  
+                                 <br>
+                                <br>
+                                <p> <b> Transport Public : Depuis la Gare de Montpellier </b> 
+                                    <ol>
+                                        <li> Tramway ligne 1 direction Mosson => Arret Occitanie </li>
+                                        <li> Occitanie => le Vigan : Bus Herault Transport <a href="https://www.herault-transport.fr/lignes-regulieres">ligne 108 </a> </li>
+                                        <li> Le vigan => Camprieu : Bus Edgard <a href="https://www.edgard-transport.fr/horaires_ligne/?rub_code=6&sens=1&date=19/07/2018&lign_id=272">Ligne CCC8 Le Vigan / Trèves</a> </li>
+                                     </ol>
+                                </p>
+                                <br>
+                                <br>
+                                <p>  <b>Transport Public : Depuis la Gare de Nimes </b>
+                                    <ul>
+                                        <li>  Nîmes - Le Vigan : Bus Edgar <a href="https://www.edgard-transport.fr/horaires_ligne/?rub_code=6&sens=1&date=18/11/2016&lign_id=20">Ligne D40</li></a>
+                                        <li> Le vigan => Camprieu : Bus Edgard <a href="https://www.edgard-transport.fr/horaires_ligne/?rub_code=6&sens=1&date=19/07/2018&lign_id=272"> Ligne CCC8 Le Vigan / Trèves </a></li>
+                                     </ul>
+                                </p>
+                                
+                            </div>
+
+                            <span class="space-xs-xl"></span>
+                            <div class="text-center">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/alex.cost.56" class="link link-sm link--style-2 text-upeprcase text-uppercase strong-600">
+                                    Event FB
+                                    <i class="ion-ios-arrow-right ml-1"></i>
+                                    </a></li>
+                                    <li><a href="https://youtu.be/oqz0x3TH2no" class="link link-sm link--style-2 text-upeprcase text-uppercase strong-600">
+                                    Encore ?
+                                    <i class="ion-ios-arrow-right ml-1"></i>
+                                    </a></li>
+                                    <li><a href="http://www.cevennes-tourisme.fr/" class="link link-sm link--style-2 text-upeprcase text-uppercase strong-600">
+                                    Les Cevennes 
+                                    <i class="ion-ios-arrow-right ml-1"></i></a></li>
+                                </ul>
+                                
+                            </div>
+
+                        
+                        </div>
+                    </section>
+
+                    <!-- FOOTER 
+                    <footer id="footer" class="footer">
+    <div class="footer-bottom bg-black py-3">
+        <div class="container">
+            <div class="row cols-xs-space col-sm-space align-items-center">
+                <div class="col-md-7 col-12">
+                    <div class="text-xs-center text-sm-left">
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#" style="padding-left: 0;">Home</a>
+                            </li>
+                            <li>
+                                <a href="https://www.thehackingproject.org/about">About us</a>
+                            </li>
+                            <li>
+                                <a href="https://www.thehackingproject.org/peer-learning">Services</a>
+                            </li>
+                        </ul>
+
+                        <div class="copyright mt-1">
+                            <ul class="copy-links">
+                                <li>
+                                    &copy; 2018 Webpixels
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/pg/thehackingproject/videos/?ref=page_internal">Vidéos</a>
+                                </li>
+                                <li>
+                                    <a href="https://herokuapp.us18.list-manage.com/unsubscribe?u=3328fb55b4411b0aadaa63670&id=2eb741a32e">Se désinscrire</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="text-xs-center text-sm-right">
+                        <ul class="social-media social-media--style-1-v4">
+                            <li>
+                                <a href="https://www.facebook.com/thehackingproject/" class="facebook" target="<%= image_path("facebook.png")%>" data-toggle="tooltip" data-original-title="Facebook">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="instagram" target="<%= image_path("facebook.png")%>" data-toggle="tooltip" data-original-title="Instagram">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dribbble" target="<%= image_path("facebook.png")%>" data-toggle="tooltip" data-original-title="Dribbble">
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dribbble" target="<%= image_path("facebook.png")%>" data-toggle="tooltip" data-original-title="Github">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer> POUR ACTIVER LE FOOTER ENLEVER LES 3 PROCHAINS CARACTERES -->
+                </div>
+            </div>
+        </div><!-- END: st-pusher -->
+    </div>
+</div><!-- END: body-wrap -->
